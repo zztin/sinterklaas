@@ -34,5 +34,4 @@ options:
                         List of participant names
   --k K                 How many gifts each person gives
   --outdir OUTDIR       Output directory
-  --check               Check counts after generating
 ```
