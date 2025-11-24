@@ -20,7 +20,7 @@ cd <repo folder>
 
 ## Example Usage
 ```
-python sinterklaas.py --k <number of gifts each person receives> --outdir ./final/ --names <A list of names separated with space>  --check
+python sinterklaas.py --k 3 --outdir ./final/ --names Alice Bob Claudio Dieter Evert Finn
 ```
 - Use ```python sinterklaas.py --help``` for more details.
 
