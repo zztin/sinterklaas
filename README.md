@@ -4,10 +4,8 @@ This Python tool helps organize a Sinterklaas style gift exchange. Each particip
 
 ## Features
 - Random assignment of gift receivers
-- Each giver gets exactly three names
-- Output written as individual txt files named after each giver
-- Validation to ensure correct counts
-- Self giving check
+- The users can define how many receivers each givers give gifts
+- Output written as individual txt files named after each giver so that the person executing would not get to know the names
 - Simple command line interface
 
 ## Installation
