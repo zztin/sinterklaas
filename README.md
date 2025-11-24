@@ -11,7 +11,8 @@ This Python tool helps organize a Sinterklaas style gift exchange. Each particip
 - Simple command line interface
 
 ## Installation
-Clone the repository and make sure you have Python 3 installed.
+1. Open "Terminal", go to a directory where you want to store this tool.
+2. Clone the repository and make sure you have Python 3 installed.
 
 ```bash
 git clone <your repo url>
