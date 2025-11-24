@@ -16,6 +16,7 @@ Clone the repository and make sure you have Python 3 installed.
 ```bash
 git clone <your repo url>
 cd <repo folder>
+```
 
 ## Usage
 ```python sinterklaas_final.py --k <number of gifts each person receives> --outdir ./final/ --names <A list of names separated with space>  --check```
