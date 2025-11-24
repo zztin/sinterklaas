@@ -18,6 +18,20 @@ git clone <your repo url>
 cd <repo folder>
 ```
 
-## Usage
-```python sinterklaas_final.py --k <number of gifts each person receives> --outdir ./final/ --names <A list of names separated with space>  --check```
+## Example Usage
+```
+python sinterklaas.py --k <number of gifts each person receives> --outdir ./final/ --names <A list of names separated with space>  --check
+```
+- Use ```python sinterklaas.py --help``` for more details.
 
+```
+Gift assignment generator
+
+options:
+  -h, --help            show this help message and exit
+  --names NAMES [NAMES ...]
+                        List of participant names
+  --k K                 How many gifts each person gives
+  --outdir OUTDIR       Output directory
+  --check               Check counts after generating
+```
