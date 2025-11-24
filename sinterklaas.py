@@ -91,7 +91,6 @@ def main():
     parser.add_argument("--names", nargs="+", required=True, help="List of participant names")
     parser.add_argument("--k", type=int, default=3, help="How many gifts each person gives")
     parser.add_argument("--outdir", type=str, default="gift_results", help="Output directory")
-    parser.add_argument("--check", action="store_true", help="Check counts after generating")
     
     args = parser.parse_args()
     
@@ -100,8 +99,8 @@ def main():
     
     print(f"Assignments written to {args.outdir}")
 
-    if args.check:
-        check_gift_counts_and_self(args.names, args.outdir, args.k)
+    # Checks
+    check_gift_counts_and_self(args.names, args.outdir, args.k)
 
 if __name__ == "__main__":
     main()
